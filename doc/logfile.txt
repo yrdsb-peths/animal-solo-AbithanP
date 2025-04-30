@@ -20,19 +20,18 @@ C:\Users\Abisan\Documents\animal-solo-AbithanP\doc
 UTF-8
 -charset
 UTF-8
-C:\Users\Abisan\Documents\animal-solo-AbithanP\SimpleTimer.java
+C:\Users\Abisan\Documents\animal-solo-AbithanP\TitleScreen.java
 <---- end of javadoc command ---->
-Loading source file C:\Users\Abisan\Documents\animal-solo-AbithanP\SimpleTimer.java...
+Loading source file C:\Users\Abisan\Documents\animal-solo-AbithanP\TitleScreen.java...
 Constructing Javadoc information...
+warning: unknown enum constant Tag.Any
+  reason: class file for threadchecker.Tag not found
+warning: unknown enum constant Tag.Any
+warning: unknown enum constant Tag.Any
+warning: unknown enum constant Tag.Any
 Standard Doclet version 21.0.4+7-LTS
 Building tree for all the packages and classes...
-Generating C:\Users\Abisan\Documents\animal-solo-AbithanP\doc\SimpleTimer.html...
-C:\Users\Abisan\Documents\animal-solo-AbithanP\SimpleTimer.java:24: warning: invalid input: '&'
- * if (timer.millisElapsed() > 1000 && Greenfoot.isKeyDown("space"))
-                                    ^
-C:\Users\Abisan\Documents\animal-solo-AbithanP\SimpleTimer.java:24: warning: invalid input: '&'
- * if (timer.millisElapsed() > 1000 && Greenfoot.isKeyDown("space"))
-                                     ^
+Generating C:\Users\Abisan\Documents\animal-solo-AbithanP\doc\TitleScreen.html...
 Generating C:\Users\Abisan\Documents\animal-solo-AbithanP\doc\package-summary.html...
 Generating C:\Users\Abisan\Documents\animal-solo-AbithanP\doc\index.html...
-2 warnings
+4 warnings
