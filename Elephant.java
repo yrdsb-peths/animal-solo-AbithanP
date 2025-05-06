@@ -58,17 +58,19 @@ public class Elephant extends Actor
     
     public void act()
     {
-        if (Greenfoot.isKeyDown("left"))
+        if (getWorld() instanceof MyWorld && 0 <= getX() <= 600)
         {
-            move(-3);
-            facing = "left";
+            if (Greenfoot.isKeyDown("left"))
+            {
+                move(-3);
+                facing = "left";
+            }
+            else if (Greenfoot.isKeyDown("right"))
+            {
+                move(3);
+                facing = "right";
+            }
         }
-        else if (Greenfoot.isKeyDown("right"))
-        {
-            move(3);
-            facing = "right";
-        }
-        
         eat();
         
         animateElephant();
